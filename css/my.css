@@ -1,0 +1,71 @@
+td{ width: 30px;
+	height:30px;
+border: solid black 1px;
+background-color: white;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+td:hover{
+	background-color:  blue;
+	border: white 1px;
+	background-size: cover;
+}
+table{
+	width: 300px;
+	height:300px;
+}
+body{
+display: flex;
+background-color: #00ffff;
+width: 75%;
+margin:auto
+}
+div #sep{
+	width: 50px;
+	height:350px;
+	background-color: white;
+}
+#roll{
+	width: 70px;
+	height:70px;
+	background-image: url('rol.jpg');
+	background-size: cover;
+}
+#roll:hover{
+	border: solid black 1px;
+	background-size: cover;
+}
+#deck4{
+	width: 100px;
+	height:25px;
+	background-image: url('4deck.jpg');
+	background-size: cover;
+	margin:auto
+}
+#deck3{
+	width: 75px;
+	height:25px;
+	background-image: url('3deck.jpg');
+	background-size: cover;
+	margin:auto
+}
+#deck2{
+	width: 50px;
+	height:25px;
+	background-image: url('2deck.jpg');
+	background-size: cover;
+	margin:auto
+}
+#deck1{
+	width: 25px;
+	height:25px;
+	background-image: url('korabl.jpg');
+	background-size: cover;
+	margin:auto
+}
+div{
+	display: flex;
+	flex-direction: column;
+
+}
